@@ -1,0 +1,51 @@
+@use 'variaveis';
+
+.paginaDicas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dicas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+    width: 60%;
+
+    @media (max-width: 768px){
+        display: block;
+        width: 90%;
+    }
+
+    @media (max-width:1023px) {
+        width: 85%;
+    }
+
+    @media screen and (min-width: 1024px) and (max-width:1392px){
+        width: 80%;
+    }
+
+    &__div{
+        background-color: #fff;
+        padding-bottom: 40px;
+        box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.2);
+
+        @media (max-width: 768px){
+            margin-bottom: 10vw;
+        }
+        
+        & h3 {
+            padding-bottom: 10px;
+        }
+
+        & p {
+            padding: 0 5vw;
+        }
+
+        &__img{
+            padding-bottom: 20px;
+            width: 100%;
+        }
+    }
+}

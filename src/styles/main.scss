@@ -1,0 +1,35 @@
+@use 'variaveis';
+@use 'header';
+@use 'hero';
+@use 'contagem';
+@use 'content';
+@use 'cerimonia';
+@use 'dicas';
+@use 'presentes';
+@use 'formulario';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Raleway", serif;
+    text-decoration: none;
+}
+
+html, body {
+    overflow-x: hidden; 
+}
+
+.container{
+    max-width: 100%;
+    text-align: center;
+
+    @media (max-width: 768px){
+        margin-inline: 1rem;
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px){
+        margin-inline: auto;
+    }
+}

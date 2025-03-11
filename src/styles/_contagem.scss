@@ -1,0 +1,61 @@
+@use 'variaveis';
+
+.contagem {
+    display: flex;
+    justify-content: center;
+    color: variaveis.$corTextoPrincipal;
+    padding: 50px 0;
+
+    &__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20vh;
+        height: 20vh;
+        border-radius: 25px;
+        margin: 0 .6rem;
+        position: relative;
+        background-color: variaveis.$corVerdeFundo;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.3);
+
+        & p{
+            font-family: "Fugaz One", serif;        
+        }
+
+        & span {
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            padding-bottom: 10px;
+
+            @media (max-width:768px) {
+                padding-bottom: 15px;
+            }
+
+            @media screen and (min-width:769px) and (max-width:1023px) {
+                padding-bottom: 12px;
+            }
+        }
+
+        @media (max-width:768px) {
+            width: 30vh;
+            height: 15vh;
+            margin: 0 .1rem;
+        }
+    
+        @media screen and (min-width:769px) and (max-width:1023px) {
+            width: 20vh;
+            height: 15vh;
+        }
+    
+        @media screen and (min-width: 1024px) and (max-width:1392px) {
+            width: 20vh;
+            height: 15vh;
+        }
+    }
+
+    @media (max-width: 1392px) {
+        width: 95vw;
+    }
+}

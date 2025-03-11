@@ -1,0 +1,42 @@
+@use 'variaveis';
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    color: variaveis.$corTextoPrincipal;
+
+    //Background imagem
+    background-image: url(/src/images/heroWallpaper4.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+    //Estrutura
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.pagetitlediv {
+    margin-top: auto; // Empurra o título para o final da section.hero
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; // Ocupa toda a largura disponível
+    height: 50vh;
+    flex-direction: column;
+
+    @media (max-width: 1023px){
+        height: 100%;
+        margin:auto;
+    }
+
+    & .pagetitle{
+        @media (max-width: 1023px){
+            width: 80%;
+            text-align: center;
+        }
+    }
+
+}

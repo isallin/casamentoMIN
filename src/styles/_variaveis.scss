@@ -1,0 +1,197 @@
+/*CORES PRINCIPAIS DO SITE*/
+$corTextoPrincipal: #fff;
+$corVerdePrincipal: #75935E;
+$corVerdeFundo: #597a41;
+$corTextoMenu: #b6c9a5;
+$corTextoMobile: #daf0c9;
+$corHoverMenu: #96bd7c;
+$corFormulario: #c8d4c1;
+$corFundoForm: #eef1eb;
+
+/////-----------TAMANHO DOS TEXTOS-----------/////
+
+/////-----------TEXTO NORMAl-----------/////
+@mixin text($fontSize: 18px) {
+    font-size: $fontSize;
+}
+
+.text--small {
+    @include text(15px);
+
+    @media (max-width:768px) {
+        @include text(13px)
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px) {
+        @include text(12px)
+    }
+}
+
+.text {
+    @include text();
+
+    @media (max-width:768px) {
+        @include text(1em)
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px) {
+        @include text(21px)
+    }
+
+    @media screen and (min-width: 1024px) and (max-width:1392px) {
+        @include text(24px)
+    }
+}
+
+.text--big {
+    @include text(1.5em);
+
+    @media (max-width:768px) {
+        @include text(1.3em)
+    }
+
+    @media screen and (min-width: 769px) and (max-width:1392px) {
+        @include text(2em)
+    }
+
+    @media (min-width:2000px) {
+        @include text(2em)
+    }
+}
+
+/////-----------TÍTULOS-----------/////
+@mixin title($fontSize: 4em) {
+    @include text ($fontSize);
+    font-size: $fontSize;
+}
+
+.title {
+    @include title();
+
+    @media (max-width:768px) {
+        @include title(2em)
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px) {
+        @include title(3em)
+    }
+}
+
+.title--big {
+    @include title(7em);
+    font-family: "Corinthia", cursive;
+
+    @media (max-width:768px) {
+        @include title(4.5em)
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px) {
+        @include title(5em)
+    }
+
+    @media screen and (min-width: 1024px) and (max-width:1392px) {
+        @include title(6em)
+    }
+}
+
+/////-----------CONTAGEM REGRESSIVA-----------/////
+@mixin timertext($fontSize: 2em) {
+    @include text ($fontSize);
+    font-size: $fontSize;
+}
+
+.timertext {
+    @include timertext();
+
+    @media (min-width:1392px) {
+        font-size: 3em;
+    }
+}
+
+/////-----------UX-----------/////
+@mixin menuText($fontSize: 1.1em) {
+    font-size: $fontSize;
+    font-weight: 500;
+}
+
+.menuText {
+    @include menuText();
+    font-family: "Raleway", serif;
+    letter-spacing: .13rem;
+    color: $corTextoMenu;
+
+    @media (max-width:768px) {
+        @include menuText(1.3em);
+        color: $corTextoMobile;
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px) {
+        @include menuText(1.1em)
+    }
+}
+
+.buttonstyle {
+    background-color: $corVerdePrincipal;
+    border: none;
+    color: $corTextoPrincipal;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 60px;
+    margin: 1vw;
+    transition: 0.3s;
+
+    &:hover{
+        background-color: $corHoverMenu;
+        cursor: pointer;
+    }
+}
+
+.imgSQ{
+    height: 35vw;
+    margin: 0 2vw;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.3);
+
+    @media (max-width:768px) {
+        height: 80vw;
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px){
+        height: 70vw;
+    }
+
+    @media screen and (min-width: 1024px) and (max-width:1392px){
+        height: 65vw;
+    }
+}
+
+.imgRCT{
+    width: 50%;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.2);
+
+    @media (max-width:768px) {
+        width: 80%;
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px){
+        width: 50%;
+    }
+}
+
+.imgVRT{
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.3);
+    width: 30%;
+    margin: 5px;
+    @media (max-width:768px) {
+        width: 80%;
+    }
+
+    @media screen and (min-width:769px) and (max-width:1023px){
+        width: 40%;
+    }
+}
+
+.textNumber{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5em;
+}

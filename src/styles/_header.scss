@@ -1,0 +1,166 @@
+@use 'variaveis';
+
+.header {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: variaveis.$corVerdeFundo;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.4);
+
+    &__logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        & h1 {
+            color: variaveis.$corTextoPrincipal;
+            font-weight: 400;
+            font-size: 1.3em;
+            letter-spacing: 0.2rem;
+            cursor: default;
+
+            @media (max-width:768px){
+                display: none;
+            }
+        
+            @media screen and (min-width:769px) and (max-width:1023px){
+                font-size: 1.2em;
+            }
+        }
+
+        & span {
+            color: variaveis.$corTextoPrincipal;
+            font-weight: 400;
+            font-size: 1.3em;
+            letter-spacing: 0.2rem;
+
+            @media (min-width:769px){
+                display: none;
+            }
+        }
+    }
+
+    &__menu {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        &-link {
+            display: flex;
+            color: variaveis.$corTextoPrincipal;
+
+            &-item {
+                padding: .4vw;
+
+                i {
+                    font-size: 1.5em;
+                    font-weight: 90;
+                    opacity: 0;
+                    color: variaveis.$corTextoMenu;
+
+                    @media (max-width: 1333px) {
+                        opacity: 1;
+                    }
+                }
+
+                a {
+                    transition: 0.2s ease-in-out;
+
+                    &:hover {
+                        color: variaveis.$corTextoPrincipal;
+                    }
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                @media (max-width: 1333px) {
+                    opacity: 0;
+                }
+            }
+
+            @media (max-width: 1333px) {
+                z-index: 99;
+                position: fixed;
+                right: 0;
+                width: 50vw;
+                height: 90vh;
+                top: 10vh;
+                background-color: variaveis.$corVerdePrincipal;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                transform: translateX(100%);
+                transition: transform 0.3s ease-in-out;
+
+                &.active {
+                    transform: translateX(0);
+                }
+
+                @media (max-width:768px) {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    & .mobileMenu {
+        cursor: pointer;
+        display: none;
+        margin-left: auto;
+
+        & div {
+            width: 2em;
+            height: 3px;
+            background: variaveis.$corTextoPrincipal;
+            margin: 4px;
+            transition: 0.3s;
+        }
+
+        @media (max-width: 1333px) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+
+}
+
+.menuText:active,
+.menuText.active {
+    color: variaveis.$corTextoPrincipal;
+}
+
+
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobileMenu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobileMenu.active .line2 {
+    opacity: 0;
+}
+
+.mobileMenu.active .line3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
