@@ -19,8 +19,8 @@
     <!--======== HEADER ========-->
     <header class="header">
         <div class="header__logo">
-            <h1>BRUNA & HENRIQUE</h1>
-            <span>B&H</span>
+            <a class="header__logo-screen" href="index.html">BRUNA & HENRIQUE</a>
+            <a class="header__logo-mobile" href="index.html">B&H</a>
         </div>
         <div class="mobileMenu">
             <div class="line1"></div>
@@ -36,6 +36,9 @@
                 <li class="header__menu-link-item">
                     <i class="ri-calendar-schedule-line"></i>
                     <a class="menuText" href="indexCerimonia.html">Cerimônia</a>
+                    <a class="menuTextSub" href="indexCerimonia.html">Cerimônia</a>
+                    <a class="menuTextSub" href="indexCerimonia.html">Localização</a>
+                    <a class="menuTextSub" href="indexCerimonia.html">Recepção</a>
                 </li>
                 <li class="header__menu-link-item">
                     <i class="ri-book-open-line"></i>
@@ -44,21 +47,22 @@
                 <li class="header__menu-link-item">
                     <i class="ri-shirt-line"></i>
                     <a class="menuText" href="indexDicas.html">Dicas</a>
+                    <a class="menuTextSub" href="indexDicas.html">Dress code</a>
                 </li>
                 <li class="header__menu-link-item">
                     <i class="ri-gift-line"></i>
-                    <a class="menuText" href="indexPresentes.html">Presentes</a>
+                    <a class="menuText" href="indexPresentes.html">Lista de casamento</a>
                 </li>
                 <li class="header__menu-link-item">
                     <i class="ri-checkbox-line"></i>
-                    <a class="menuText" href="indexPresenca.html">Presença</a>
+                    <a class="menuText" href="indexPresenca.html">Confirme presença</a>
                 </li>
             </ul>
         </div>
     </header>
 
     <div class="content-form">
-        <div class="container">
+        <div class="container container-prst">
             <!--=============== ///////////// DICAS ///////////// ===============-->
             <section class="paginaDicas">
                 <p class="title content__title">Confirme sua presença</p>
@@ -73,23 +77,6 @@
                         <label for="sim">Sim</label>
                         <input type="radio" id="nao" name="presenca" class="sim-nao">
                         <label for="nao">Não</label>
-                    </div>
-                    <div class="form__campo">
-                        <label for="adultos">Quantos adultos? (incluindo você)</label>
-                        <select id="adultos" class="adultos text" required>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
-                    </div>
-                    <div class="form__campo">
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" class="form__campo-same text" placeholder="exemplo@email.com" required>
-                    </div>
-                    <div class="form__campo">
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" class="form__campo-same text" placeholder="(11) 99999-9999" required>
                     </div>
                     <div class="form__campo">
                         <label for="obs">Observações:</label>

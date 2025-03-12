@@ -216,42 +216,42 @@
   background-color: #597a41;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   margin: 0 auto;
-  padding: 0 10vw;
+  padding: 0 5vw;
   display: flex;
   position: fixed;
   box-shadow: 6px 6px 6px #0006;
 }
 
 .header__logo {
+  flex-shrink: 0;
   align-items: center;
   height: 100%;
   display: flex;
 }
 
-.header__logo h1 {
+.header__logo-screen {
   color: #fff;
   letter-spacing: .2rem;
-  cursor: default;
   font-size: 1.3em;
   font-weight: 400;
 }
 
 @media (width <= 768px) {
-  .header__logo h1 {
+  .header__logo-screen {
     display: none;
   }
 }
 
 @media screen and (width >= 769px) and (width <= 1023px) {
-  .header__logo h1 {
+  .header__logo-screen {
     font-size: 1.2em;
   }
 }
 
-.header__logo span {
+.header__logo-mobile {
   color: #fff;
   letter-spacing: .2rem;
   font-size: 1.3em;
@@ -259,7 +259,7 @@
 }
 
 @media (width >= 769px) {
-  .header__logo span {
+  .header__logo-mobile {
     display: none;
   }
 }
@@ -272,32 +272,59 @@
 
 .header__menu-link {
   color: #fff;
+  flex-wrap: nowrap;
   display: flex;
 }
 
 .header__menu-link-item {
-  padding: .4vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .header__menu-link-item i {
-  opacity: 0;
   color: #b6c9a5;
   font-size: 1.5em;
   font-weight: 90;
+  display: none;
 }
 
 @media (width <= 1333px) {
   .header__menu-link-item i {
     opacity: 1;
+    display: inline;
   }
 }
 
 .header__menu-link-item a {
+  padding-left: 30px;
   transition: all .2s ease-in-out;
 }
 
 .header__menu-link-item a:hover {
   color: #fff;
+}
+
+@media (width <= 1333px) {
+  .header__menu-link-item a {
+    padding-left: 0;
+  }
+}
+
+.header__menu-link-item .menuTextSub {
+  display: none;
+}
+
+@media (width <= 1333px) {
+  .header__menu-link-item .menuTextSub {
+    color: #fff;
+    opacity: .5;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.2rem;
+    display: block;
+  }
 }
 
 .header__menu-link-item:hover {
@@ -307,6 +334,7 @@
 @media (width <= 1333px) {
   .header__menu-link-item {
     opacity: 0;
+    display: block;
   }
 
   .header__menu-link {
@@ -513,6 +541,10 @@
   .container {
     width: 70vw;
   }
+}
+
+.container-prst {
+  height: 100vh;
 }
 
 .content {

@@ -3,44 +3,45 @@
 .header {
     z-index: 100;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: variaveis.$corVerdeFundo;
     height: 10vh;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw;
+    padding: 0 5vw;
     box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.4);
+    
 
     &__logo {
         height: 100%;
         display: flex;
         align-items: center;
+        flex-shrink: 0;
 
-        & h1 {
+        &-screen {
             color: variaveis.$corTextoPrincipal;
             font-weight: 400;
             font-size: 1.3em;
             letter-spacing: 0.2rem;
-            cursor: default;
 
-            @media (max-width:768px){
+            @media (max-width:768px) {
                 display: none;
             }
-        
-            @media screen and (min-width:769px) and (max-width:1023px){
+
+            @media screen and (min-width:769px) and (max-width:1023px) {
                 font-size: 1.2em;
             }
         }
 
-        & span {
+        &-mobile {
             color: variaveis.$corTextoPrincipal;
             font-weight: 400;
             font-size: 1.3em;
             letter-spacing: 0.2rem;
 
-            @media (min-width:769px){
+            @media (min-width:769px) {
                 display: none;
             }
         }
@@ -54,27 +55,51 @@
         &-link {
             display: flex;
             color: variaveis.$corTextoPrincipal;
+            flex-wrap: nowrap;
 
             &-item {
-                padding: .4vw;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
-                i {
+                & i {
                     font-size: 1.5em;
                     font-weight: 90;
-                    opacity: 0;
+                    display: none;
                     color: variaveis.$corTextoMenu;
 
                     @media (max-width: 1333px) {
+                        display: inline;
                         opacity: 1;
                     }
                 }
 
-                a {
+                & a {
                     transition: 0.2s ease-in-out;
+                    padding-left: 30px;
 
                     &:hover {
                         color: variaveis.$corTextoPrincipal;
                     }
+
+                    @media (max-width: 1333px) {
+                        padding-left: 0;
+                    }
+                }
+
+                & .menuTextSub{
+                    display: none;
+
+                    @media (max-width: 1333px) {
+                        display: block;
+                        color: variaveis.$corTextoPrincipal;
+                        opacity: .5;
+                        text-align: center;
+                        padding-top: 15px;
+                        font-size: 1.2rem;
+                    }
+
                 }
 
                 &:hover {
@@ -83,6 +108,7 @@
 
                 @media (max-width: 1333px) {
                     opacity: 0;
+                    display: block;
                 }
             }
 
