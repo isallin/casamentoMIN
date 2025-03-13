@@ -1,0 +1,415 @@
+.text--small {
+  font-size: 15px;
+}
+
+@media (width <= 768px) {
+  .text--small {
+    font-size: 13px;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .text--small {
+    font-size: 12px;
+  }
+}
+
+.text {
+  font-size: 18px;
+}
+
+@media (width <= 768px) {
+  .text {
+    font-size: 1em;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .text {
+    font-size: 21px;
+  }
+}
+
+@media screen and (width >= 1024px) and (width <= 1392px) {
+  .text {
+    font-size: 24px;
+  }
+}
+
+.text--big {
+  font-size: 1.5em;
+}
+
+@media (width <= 768px) {
+  .text--big {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1392px) {
+  .text--big {
+    font-size: 2em;
+  }
+}
+
+@media (width >= 2000px) {
+  .text--big {
+    font-size: 2em;
+  }
+}
+
+.title {
+  font-size: 4em;
+}
+
+@media (width <= 768px) {
+  .title {
+    font-size: 2em;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .title {
+    font-size: 3em;
+  }
+}
+
+.title--big {
+  font-family: Corinthia, cursive;
+  font-size: 7em;
+}
+
+@media (width <= 768px) {
+  .title--big {
+    font-size: 4.5em;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .title--big {
+    font-size: 5em;
+  }
+}
+
+@media screen and (width >= 1024px) and (width <= 1392px) {
+  .title--big {
+    font-size: 6em;
+  }
+}
+
+.timertext {
+  font-size: 2em;
+}
+
+@media (width >= 1392px) {
+  .timertext {
+    font-size: 3em;
+  }
+}
+
+.menuText {
+  letter-spacing: .13rem;
+  color: #b6c9a5;
+  font-family: Raleway, serif;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+@media (width <= 768px) {
+  .menuText {
+    color: #daf0c9;
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .menuText {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+}
+
+.buttonstyle {
+  color: #fff;
+  text-align: center;
+  background-color: #75935e;
+  border: none;
+  border-radius: 60px;
+  margin: 1vw;
+  padding: 15px 32px;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.buttonstyle:hover {
+  cursor: pointer;
+  background-color: #96bd7c;
+}
+
+.imgSQ {
+  height: 35vw;
+  margin: 0 2vw;
+  box-shadow: 6px 6px 6px #0000004d;
+}
+
+@media (width <= 768px) {
+  .imgSQ {
+    height: 80vw;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .imgSQ {
+    height: 70vw;
+  }
+}
+
+@media screen and (width >= 1024px) and (width <= 1392px) {
+  .imgSQ {
+    height: 65vw;
+  }
+}
+
+.imgRCT {
+  width: 50%;
+  box-shadow: 6px 6px 6px #0003;
+}
+
+@media (width <= 768px) {
+  .imgRCT {
+    width: 80%;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .imgRCT {
+    width: 50%;
+  }
+}
+
+.imgVRT {
+  width: 30%;
+  margin: 5px;
+  box-shadow: 6px 6px 6px #0000004d;
+}
+
+@media (width <= 768px) {
+  .imgVRT {
+    width: 80%;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .imgVRT {
+    width: 40%;
+  }
+}
+
+.textNumber {
+  font-family: Inter, sans-serif;
+  font-size: 1.5em;
+}
+
+.header {
+  z-index: 100;
+  background-color: #597a41;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  margin: 0 auto;
+  padding: 0 5vw;
+  display: flex;
+  position: fixed;
+  box-shadow: 6px 6px 6px #0006;
+}
+
+.header__logo {
+  flex-shrink: 0;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.header__logo-screen {
+  color: #fff;
+  letter-spacing: .2rem;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+@media (width <= 768px) {
+  .header__logo-screen {
+    display: none;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1023px) {
+  .header__logo-screen {
+    font-size: 1.2em;
+  }
+}
+
+.header__logo-mobile {
+  color: #fff;
+  letter-spacing: .2rem;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+@media (width >= 769px) {
+  .header__logo-mobile {
+    display: none;
+  }
+}
+
+.header__menu {
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.header__menu-link {
+  color: #fff;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.header__menu-link-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.header__menu-link-item i {
+  color: #b6c9a5;
+  font-size: 1.5em;
+  font-weight: 90;
+  display: none;
+}
+
+@media (width <= 1333px) {
+  .header__menu-link-item i {
+    opacity: 1;
+    display: inline;
+  }
+}
+
+.header__menu-link-item a {
+  padding-left: 30px;
+  transition: all .2s ease-in-out;
+}
+
+.header__menu-link-item a:hover {
+  color: #fff;
+}
+
+@media (width <= 1333px) {
+  .header__menu-link-item a {
+    padding-left: 0;
+  }
+}
+
+.header__menu-link-item .menuTextSub {
+  display: none;
+}
+
+@media (width <= 1333px) {
+  .header__menu-link-item .menuTextSub {
+    color: #fff;
+    opacity: .5;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.2rem;
+    display: block;
+  }
+}
+
+.header__menu-link-item:hover {
+  cursor: pointer;
+}
+
+@media (width <= 1333px) {
+  .header__menu-link-item {
+    opacity: 0;
+    display: block;
+  }
+
+  .header__menu-link {
+    z-index: 99;
+    background-color: #75935e;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
+    transition: transform .3s ease-in-out;
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    transform: translateX(100%);
+  }
+
+  .header__menu-link.active {
+    transform: translateX(0);
+  }
+}
+
+@media (width <= 1333px) and (width <= 768px) {
+  .header__menu-link {
+    width: 100%;
+  }
+}
+
+.header .mobileMenu {
+  cursor: pointer;
+  margin-left: auto;
+  display: none;
+}
+
+.header .mobileMenu div {
+  background: #fff;
+  width: 2em;
+  height: 3px;
+  margin: 4px;
+  transition: all .3s;
+}
+
+@media (width <= 1333px) {
+  .header .mobileMenu {
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+  }
+}
+
+.menuText:active, .menuText.active {
+  color: #fff;
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobileMenu.active .line1 {
+  transform: rotate(-45deg)translate(-8px, 8px);
+}
+
+.mobileMenu.active .line2 {
+  opacity: 0;
+}
+
+.mobileMenu.active .line3 {
+  transform: rotate(45deg)translate(-8px, -8px);
+}
+/*# sourceMappingURL=_header.css.map */

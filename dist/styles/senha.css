@@ -1,0 +1,32 @@
+.container-senha {
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+}
+
+.container-senha input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.container-senha button {
+  cursor: pointer;
+  padding: 20px 100px;
+}
+
+.container-senha .hidden {
+  color: red;
+  margin-top: 10px;
+  font-size: .9rem;
+  display: none;
+}
+/*# sourceMappingURL=senha.css.map */
