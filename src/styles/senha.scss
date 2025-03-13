@@ -1,0 +1,52 @@
+@use 'variaveis';
+
+.container-senha {
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}

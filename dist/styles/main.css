@@ -211,6 +211,57 @@
   font-size: 1.5em;
 }
 
+.container-senha {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.login {
+  text-align: center;
+  text-align: center;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 6px 6px 6px #0000004d;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+  transition: all .3s;
+  box-shadow: 6px 6px 6px #0000004d;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  color: red;
+  margin-top: 10px;
+  font-size: .9rem;
+  display: none;
+}
+
 .header {
   z-index: 100;
   background-color: #597a41;
