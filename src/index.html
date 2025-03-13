@@ -27,10 +27,12 @@
     </section>
 
     <script>
-        function verificarSenha() {
+ function verificarSenha() {
             const senhaCorreta = "brunique";
             const inputSenha = document.getElementById("password").value;
             const mensagemErro = document.getElementById("mensagem-erro");
+
+            mensagemErro.classList.add("hidden"); // Oculta a mensagem antes da verificação
 
             if (inputSenha === senhaCorreta) {
                 console.log("Senha correta! Redirecionando...");
@@ -40,11 +42,27 @@
             }
         }
 
+        // Simula o pressionamento da tecla "Enter"
+        function simularEnter() {
+            const event = new KeyboardEvent("keyup", {
+                key: "Enter",
+                keyCode: 13,
+                which: 13,
+                bubbles: true
+            });
+
+            document.getElementById("password").dispatchEvent(event);
+        }
+
+        // Executa a verificação ao pressionar Enter
         document.getElementById("password").addEventListener("keyup", function (event) {
             if (event.key === "Enter") {
-                document.getElementById("entrar").click(); // Simula o clique no botão
+                verificarSenha();
             }
         });
+
+        // Faz o botão "Entrar" disparar o evento "Enter"
+        document.getElementById("entrar").addEventListener("click", simularEnter);
     </script>
 </body>
 
