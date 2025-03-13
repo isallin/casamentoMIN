@@ -30,7 +30,7 @@
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\source-map\dist\wasm.js133861395513201222 0
 78C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\scripts\main.js133863084705269643 0
 115C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\core\src\requests\PackageRequest.js133861395524542132 0
-71C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\package.json133863112812838249 0
+71C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\package.json133863120287005226 0
 88C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\binding.gyp133861395524781501 0
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\GN.js133861395556866511 0
 112C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\utility-types\dist\functional-helpers.js133861395492057148 0
@@ -92,7 +92,7 @@
 143C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\index.js133861395504759674 0
 119C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\createimagebitmap.js133861395525599311 0
 92C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\_\index133861395530039751 1
-73C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\index.html133863113220477151 0
+73C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\index.html133863122592613064 0
 88C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\is-json\index.js133861395495260693 0
 81C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\src133861401567076907 1
 112C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\htmlnano\lib\modules\removeUnusedCss.mjs133861395524282793 0
