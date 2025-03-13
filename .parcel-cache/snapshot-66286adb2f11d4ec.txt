@@ -1,4 +1,4 @@
-4503
+4504
 87C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\images\quintaCant_04.jpg133841909065858758 0
 121C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133861395505192106 0
 147C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js133861395492894914 0
@@ -44,8 +44,6 @@
 87C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\dist\presente11.0eff9069.jpg133862268615429060 0
 110C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\dist\unpacker\features.js133861395553974635 0
 76C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\package-lock.json133861401571790961 0
-121C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\css-read-only-write.js133861395529740557 0
-90C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\.package-lock.json133861401572239752 0
 104C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\packager-js\lib\utils.js133861395513211192 0
 112C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\graph\test\AdjacencyList.test.js133861395503330050 0
 83C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\images\presente9.jpg133857593701082143 0
@@ -57,7 +55,20 @@
 109C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\runtime-js\src\helpers\worker133861395518523025 1
 108C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\watcher\src\PromiseRunner.hh133861395516310984 0
 118C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\posthtml\node_modules\entities\lib\encode.d.ts133861395515091758 0
-63C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\dist133862268620631575 1
+96C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\esm\_jsx.js133861395525843213 0
+97C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\readdirp\esm\package.json133861397187896595 0
+69C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\styles133861397893620167 1
+88C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\term-size\vendor133861395496568810 1
+103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\ZM.js133861395570432610 0
+69C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\senha.html133863062007966035 0
+110C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133861395525813296 0
+63C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\dist133863057054251944 1
+103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\CD.js133861395522804447 0
+143C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.cmd133861395570710165 0
+89C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\core\test133861395528027638 1
+123C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts.map133861395515530581 0
+113C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\posthtml\node_modules\htmlparser2\LICENSE133861395488894095 0
+62C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src133861397974795101 1
 127C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\lmdb.h133861395525020852 0
 95C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\domhandler\package.json133861395503368365 0
 71C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules133861401570853457 1
@@ -65,12 +76,6 @@
 117C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\async-clipboard.js133861395517824565 0
 119C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md133861395527079913 0
 132C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\posthtml\node_modules\entities\lib\decode_codepoint.d.ts.map133861395511528553 0
-103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\CD.js133861395522804447 0
-143C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.cmd133861395570710165 0
-89C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\core\test133861395528027638 1
-123C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts.map133861395515530581 0
-113C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\posthtml\node_modules\htmlparser2\LICENSE133861395488894095 0
-62C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src133861397974795101 1
 94C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\msgpackr\dist\node.cjs133861395497915092 0
 128C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133861395523717166 0
 135C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\posthtml\node_modules\entities\lib\generated\decode-data-xml.js133861395498223277 0
@@ -91,7 +96,7 @@
 143C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\index.js133861395504759674 0
 119C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\createimagebitmap.js133861395525599311 0
 92C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\_\index133861395530039751 1
-73C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\index.html133862265744827280 0
+73C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\index.html133863057000877045 0
 88C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\is-json\index.js133861395495260693 0
 81C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\src133861401567076907 1
 112C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\htmlnano\lib\modules\removeUnusedCss.mjs133861395524282793 0
@@ -121,9 +126,6 @@
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\SH.js133861395565092246 0
 92C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\globals\package.json133861395495071204 0
 70C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\scripts133861398153820234 1
-96C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\esm\_jsx.js133861395525843213 0
-97C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\readdirp\esm\package.json133861397187896595 0
-69C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\styles133861397893620167 1
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\TR.js133861395568724370 0
 116C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\_\_super_prop_base\package.json133861395529551057 0
 142C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\package.json133861395496915796 0
@@ -326,6 +328,8 @@
 82C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\micromatch133861395493621969 1
 92C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\callsites\index.d.ts133861395489701261 0
 87C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\src\images\quintaCant_05.jpg133857546576434806 0
+121C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\css-read-only-write.js133861395529740557 0
+90C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\.package-lock.json133861401572239752 0
 97C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\counter\CHANGELOG.md133861395489820943 0
 85C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\level.js133861395526102525 0
 100C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sass\types\value\string.d.ts133861397189762344 0
@@ -351,8 +355,6 @@
 81C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@mischnic133861395453693398 1
 108C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\esm\_define_property.js133861395525459681 0
 116C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\watcher\src\macos\FSEventsBackend.hh133861395515500661 0
-109C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\transformer-html\node_modules133861395454073140 1
-121C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c133861395521817078 0
 89C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@msgpackr-extract133861401570863429 1
 96C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@img\sharp-win32-x64\lib133861401569165074 1
 79C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel133861401570853457 1
@@ -1013,7 +1015,6 @@
 86C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\native.js133861395526132443 0
 99C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\domutils\lib\esm\feeds.d.ts133861395519281003 0
 90C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\term-size\index.js133861395508952815 0
-88C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\term-size\vendor133861395496568810 1
 102C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\watcher\src\Watcher.hh133861395517625093 0
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\utils\src\bundle-url.js133861395504738611 0
 97C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\domutils\lib\index.js.map133861395515670213 0
@@ -1121,12 +1122,12 @@
 95C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\src\operations.cc133861401566667993 0
 122C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\esm\_class_apply_descriptor_update.js133861395524492224 0
 102C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\node_modules\detect-libc133861401566638080 1
-92C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\src\pipeline.h133861401567046988 0
-123C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\cjs\_iterable_to_array_limit_loose.cjs133861395519759722 0
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\BE.js133861395520258393 0
 100C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\posthtml-render\package.json133861395492067121 0
 147C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\package.json133861395517465495 0
 102C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\semver\internal\identifiers.js133861395512283358 0
+92C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\src\pipeline.h133861401567046988 0
+123C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\cjs\_iterable_to_array_limit_loose.cjs133861395519759722 0
 89C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\src\stats.h133861401567066936 0
 94C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\src\utilities.cc133861401566887415 0
 113C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\sharp\node_modules\detect-libc\index.d.ts133861401566638080 0
@@ -1951,8 +1952,6 @@
 97C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lz4\lib133861395527089885 1
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\PF.js133861395562793563 0
 101C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lz4\lib\dll133861395524592007 1
-103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\ZM.js133861395570432610 0
-110C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133861395525813296 0
 95C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\domutils\lib\helpers.js133861395497493445 0
 105C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lz4\lib\LICENSE133861395510310649 0
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lz4\lib\lz4.h133861395525280163 0
@@ -2025,6 +2024,8 @@
 118C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\getcomputedstyle.js133861395556487526 0
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\KH.js133861395560237505 0
 121C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.h133861395525609284 0
+109C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\transformer-html\node_modules133861395454073140 1
+121C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c133861395521817078 0
 102C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\workers\src\backend.js133861395492675497 0
 124C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc.c133861395520836853 0
 103C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\regions\IQ.js133861395559778728 0
@@ -2350,12 +2351,12 @@
 109C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@mischnic\json-sourcemap\package.json133861395491803572 0
 90C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\diagnostic133861395499880421 1
 118C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\htmlnano\lib\modules\removeAttributeQuotes.cjs133861395514109644 0
-106C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\cors.js133861395525509549 0
-118C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\htmlnano\lib\modules\removeAttributeQuotes.mjs133861395522814422 0
 115C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\accelerometer.js133861395497421802 0
 94C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\diagnostic\src133861395492366337 1
 124C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\page-transition-events.js133861395562611340 0
 105C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\reporter-cli\src\emoji.js133861395508932869 0
+118C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\htmlnano\lib\modules\removeAttributeQuotes.mjs133861395522814422 0
+106C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\cors.js133861395525509549 0
 90C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\clone\package.json133861395488355530 0
 118C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\htmlnano\lib\modules\removeEmptyAttributes.mjs133861395523033839 0
 144C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@swc\helpers\_\_class_check_private_static_field_descriptor\package.json133861395527947845 0
@@ -2967,7 +2968,7 @@
 98C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\@parcel\watcher\src\shared133861395514523268 1
 119C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\css-cascade-scope.js133861395526680979 0
 122C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\css-case-insensitive.js133861395526740816 0
-74C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\dist\index.html133862268618590603 0
+74C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\dist\index.html133863057054241980 0
 120C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\css-color-function.js133861395526890422 0
 121C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\css-conic-gradients.js133861395526950256 0
 111C:\Users\ISABEL\Documents\BrunaEHenrique\site\casamentoMIN\node_modules\caniuse-lite\data\features\wasm-simd.js133861395569650191 0
