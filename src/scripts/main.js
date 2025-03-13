@@ -98,33 +98,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 1000);
     
 });
-
-    //----- CARROSSEL -----//
-    const swiper = new Swiper('.carousel__wrapper', {
-        spaceBetween: 5,
-
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
-        breakpoints: {
-            0: {
-                slidesPerView: 1
-            },
-            768: {
-                slidesPerView: 2
-            },
-            1023: {
-                slidesPerView: 3
-            }
-        }
-
-    });
-
-    
