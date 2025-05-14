@@ -19,8 +19,8 @@
     <!--======== HEADER ========-->
     <header class="header">
         <div class="header__logo">
-            <a class="header__logo-screen" href="indexHome.html">BRUNA & HENRIQUE</a>
-            <a class="header__logo-mobile" href="indexHome.html">B&H</a>
+            <a class="header__logo-screen" href="index.html">BRUNA & HENRIQUE</a>
+            <a class="header__logo-mobile" href="index.html">B&H</a>
         </div>
         <div class="mobileMenu">
             <div class="line1"></div>
@@ -31,7 +31,7 @@
             <ul class="header__menu-link">
                 <li class="header__menu-link-item">
                     <i class="ri-home-line"></i>
-                    <a class="menuText" href="indexHome.html">Home</a>
+                    <a class="menuText" href="index.html">Home</a>
                 </li>
                 <li class="header__menu-link-item">
                     <i class="ri-calendar-schedule-line"></i>
@@ -66,31 +66,23 @@
             <!--=============== ///////////// DICAS ///////////// ===============-->
             <section class="paginaDicas">
                 <p class="title content__title">Confirme sua presença</p>
-                <form class="form" method="POST">
+                <form class="form" method="post" action="" name="contact-form">
                     <div class="form__campo">
-                        <label for="nome">Nome completo (Full name):</label>
-                        <input
-                        type="text"
-                        id="nome"
-                        class="form__campo-same text"
-                        placeholder="Seu nome completo"
-                        name="Nome Completo"
-                        required>
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" name="your-name" class="form__campo-same text" placeholder="Seu nome completo" required>
                     </div>
                     <div class="form__campo">
-                        <label for="presenca">Você irá ao evento? (Will you join us?)</label><br>
-                        <input type="radio" id="sim" name="Presenca" class="sim-nao">
-                        <label for="sim">Sim/Yes</label>
-                        <input type="radio" id="nao" name="Presenca" class="sim-nao">
-                        <label for="nao">Não/No</label>
+                        <label for="presenca">Você irá ao evento?</label><br>
+                        <input type="radio" id="sim" name="presenca" class="sim-nao">
+                        <label for="sim">Sim</label>
+                        <input type="radio" id="nao" name="presenca" class="sim-nao">
+                        <label for="nao">Não</label>
                     </div>
                     <div class="form__campo">
-                        <label for="obs">Observações (Observations):</label>
-                        <textarea id="obs" name="Observacoes" class="form__campo-same text"></textarea>
+                        <label for="obs">Observações:</label>
+                        <textarea id="obs" class="form__campo-same text"></textarea>
                     </div>
-                    <button type="submit" class="buttonstyle text" id="submit-button">
-                        Confirmar presença
-                    </button>
+                    <button type="submit" class="buttonstyle text">Confirmar presença</button>
                 </form>
             </section>
         </div>

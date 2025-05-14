@@ -672,6 +672,27 @@ document.addEventListener('DOMContentLoaded', function() {
         atualizaElemento('segundos', segundosAteEvento);
     }, 1000);
 });
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxs2f9BJ1VtqKoeL3gakdpoWZIKhPBnHHUN0W4rJgK9EcWnwymvz1FyWlbJv05quQjJ/exec';
+const form = document.forms['contact-form'];
+form.addEventListener('submit', async (e)=>{
+    e.preventDefault();
+    const presenca = document.querySelector('input[name="presenca"]:checked')?.value; // Garantir que o valor do radio seja capturado
+    const formData = new FormData(form);
+    formData.set('presenca', presenca); // Substituir o valor de 'presenca' pela escolha do usuário
+    try {
+        const response = await fetch(scriptURL, {
+            method: 'POST',
+            body: formData
+        });
+        if (response.ok) {
+            alert("Obrigado! Sua presen\xe7a foi confirmada.");
+            form.reset();
+        } else alert("Ocorreu um erro ao enviar o formul\xe1rio. Por favor, tente novamente.");
+    } catch (error) {
+        console.error('Erro!', error);
+        alert("Erro na conex\xe3o. Por favor, tente novamente.");
+    }
+});
 
 },{}]},["k51Nd","3cYfC"], "3cYfC", "parcelRequire94c2")
 
