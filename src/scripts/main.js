@@ -99,20 +99,26 @@ document.addEventListener('DOMContentLoaded', function () {
     
 });
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxs2f9BJ1VtqKoeL3gakdpoWZIKhPBnHHUN0W4rJgK9EcWnwymvz1FyWlbJv05quQjJ/exec';
 const form = document.forms['contact-form'];
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    const presenca = document.querySelector('input[name="presenca"]:checked')?.value; // Garantir que o valor do radio seja capturado
+    const presenca = document.querySelector('input[name="presenca"]:checked')?.value;
+
+    if (!presenca) {
+        alert("Por favor, selecione se você irá ao evento.");
+        return;
+    }
 
     const formData = new FormData(form);
-    formData.set('presenca', presenca); // Substituir o valor de 'presenca' pela escolha do usuário
+    formData.set('presenca', presenca);
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzh0QlZ3HzhZX-lZwF5t7y_X9pqoy3N8_Fi37gZwLq3eabxPFh1LJ029g2WY8idRMxK/exec';
 
     try {
-        const response = await fetch(scriptURL, {
-            method: 'POST',
+        const response = await fetch(scriptURL, { 
+            method: 'POST', 
             body: formData
         });
 
