@@ -1,24 +1,21 @@
 @use 'variaveis';
 
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
     color: variaveis.$corTextoPrincipal;
 
-    //Background imagem
-    background-image: url(/src/images/wallpaper1.jpeg);
+    // Background imagem com sobreposição escura
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/src/images/wallpaper1.jpeg);
     background-size: cover;
-    background-position:bottom ;
+    background-position: bottom;
     overflow: hidden;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
 
-    //Estrutura
+    // Estrutura
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
-    $transition-speed: 1s;
-    transition: background-image $transition-speed ease-in-out;
 }
 
 .pagetitlediv {
