@@ -447,7 +447,7 @@
 
 .hero {
   color: #fff;
-  background-image: url("../heroWallpaper1.f24bc8c2.jpeg");
+  background-image: url("../wallpaper1.773f2014.jpeg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -455,6 +455,7 @@
   justify-content: flex-start;
   width: 100%;
   min-height: 100vh;
+  transition: background-image 1s ease-in-out;
   display: flex;
   overflow: hidden;
 }

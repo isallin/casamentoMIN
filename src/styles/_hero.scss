@@ -6,16 +6,19 @@
     color: variaveis.$corTextoPrincipal;
 
     //Background imagem
-    background-image: url(/src/images/heroWallpaper1.jpeg);
+    background-image: url(/src/images/wallpaper1.jpeg);
     background-size: cover;
     background-position:bottom ;
     overflow: hidden;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 
     //Estrutura
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+    $transition-speed: 1s;
+    transition: background-image $transition-speed ease-in-out;
 }
 
 .pagetitlediv {

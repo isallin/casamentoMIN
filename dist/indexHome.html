@@ -139,6 +139,15 @@
     </div>
 
     <script src="/indexCerimonia.f75de5e1.js"></script>
+    <script>const heroSection = document.querySelector('.hero');
+const totalImages = 5;
+let currentImage = 1;
+setInterval(()=>{
+    currentImage = currentImage % totalImages + 1;
+    heroSection.style.backgroundImage = `url(/src/images/wallpaper${currentImage}.jpeg)`;
+}, 5000); // 5000 ms = 5 segundos
+
+</script>
 <script src="/indexHome.78facf3d.js"></script></body>
 
 </html>
