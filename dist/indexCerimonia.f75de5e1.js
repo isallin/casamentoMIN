@@ -75,6 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 1000);
 });
 const form = document.forms['contact-form'];
+const loader = document.querySelector('.loader');
+const submitButton = form.querySelector('button[type="submit"]');
 form.addEventListener('submit', async (e)=>{
     e.preventDefault();
     const presenca = document.querySelector('input[name="presenca"]:checked')?.value;
@@ -85,6 +87,9 @@ form.addEventListener('submit', async (e)=>{
     const formData = new FormData(form);
     formData.set('presenca', presenca);
     const scriptURL = 'https://script.google.com/macros/s/AKfycbzh0QlZ3HzhZX-lZwF5t7y_X9pqoy3N8_Fi37gZwLq3eabxPFh1LJ029g2WY8idRMxK/exec';
+    // Mostrar loader e desabilitar botão
+    loader.style.display = 'inline-block';
+    submitButton.disabled = true;
     try {
         const response = await fetch(scriptURL, {
             method: 'POST',
@@ -97,6 +102,10 @@ form.addEventListener('submit', async (e)=>{
     } catch (error) {
         console.error('Erro!', error);
         alert("Erro na conex\xe3o. Por favor, tente novamente.");
+    } finally{
+        // Ocultar loader e reabilitar botão
+        loader.style.display = 'none';
+        submitButton.disabled = false;
     }
 });
 
